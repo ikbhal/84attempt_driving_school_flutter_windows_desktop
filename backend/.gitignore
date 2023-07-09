@@ -1,0 +1,41 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment files
+venv/
+env/
+.env
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+
+# Ignore Flask related files
+instance/
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.db
+
+# Ignore package dependency files
+pip-lock.txt
+requirements.txt
+
+# Ignore generated files
+*.pyc
+
+# Ignore environment specific files
+.env
+
+# Ignore sensitive or private information
+config.ini
+secret.key
+
+# Ignore system files
+.DS_Store
+Thumbs.db
